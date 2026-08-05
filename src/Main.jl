@@ -1,7 +1,7 @@
-using HTTP
+using oxygen
 
-function get_random_joke(req::HTTP.Request)
-    return HTTP.Response(200, "Why don't scientists trust atoms? Because they make up everything!")
+@get "/" function ()
+    return "Why don't scientists trust atoms? Because they make up everything!"
 end
 
-HTTP.serve(get_random_joke, "0.0.0.0", 8080)
+serve(host="0.0.0.0", port=8080)
