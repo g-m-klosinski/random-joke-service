@@ -25,7 +25,7 @@ Road Map
 The service is non-functional yet and has the following road map:
 
 - [x] Print a fixed joke for each request
-- [ ] Change response format to JSON
+- [x] Change response format to JSON
 - [ ] Implement a random joke generator
 
 Motivation

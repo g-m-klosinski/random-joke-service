@@ -1,7 +1,10 @@
-using oxygen
+using Oxygen
 
 @get "/" function ()
-    return "Why don't scientists trust atoms? Because they make up everything!"
+    return Dict(
+    "message" =>
+        "Why don't scientists trust atoms? Because they make up everything!"
+        )
 end
 
-serve(host="0.0.0.0", port=8080)
+serve(host="127.0.0.1", port=8080)
