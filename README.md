@@ -3,7 +3,7 @@ Random Joke Service
 
 A service providing a new random joke for each request
 
-<!-- Quick Start
+Quick Start
 -----------
 
 The service is written in Julia and you can launch
@@ -17,16 +17,7 @@ it as follows:
    julia run.jl
    ```
 
-1. Open your browser and navigate to `http://localhost:8080` to see a random joke. -->
-
-Road Map
---------
-
-The service is non-functional yet and has the following road map:
-
-- [x] Print a fixed joke for each request
-- [x] Change response format to JSON
-- [ ] Implement a random joke generator
+1. Open your browser and navigate to `http://localhost:8080` to see a random joke.
 
 Motivation
 ----------
